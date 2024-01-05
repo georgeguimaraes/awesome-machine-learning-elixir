@@ -1,6 +1,6 @@
 <div align="center">
 
-# Awesome Machine Learning and Elixir [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Machine Learning and Elixir
 
 A curated list of Machine Learning packages and resources for Elixir.
 

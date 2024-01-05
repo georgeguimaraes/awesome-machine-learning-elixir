@@ -12,7 +12,10 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 ## Contents
 
 - [General-Purpose Machine Learning](#general-purpose-machine-learning)
-- [Data Analysis / Data Visualization](#data-analysis-data-visualization)
+- [Data Analysis / Data Visualization](#data-analysis--data-visualization)
+- [Livebooks / Codebases](#livebooks--codebases)
+- [Neural Networks](#neural-networks)
+- [Resources](#resources)
 
 ## General-Purpose Machine Learning
 

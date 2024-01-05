@@ -2,7 +2,7 @@
 
 # Awesome Machine Learning and Elixir
 
-A curated list of Machine Learning packages and resources for Elixir.
+A curated list of Machine Learning packages and resources for the [Elixir](https://elixir-lang.org/) programming language.
 
 Besides giving an overview for experienced Elixir developers, this list can be useful for ML people looking for other ecosystems.
 

@@ -11,11 +11,16 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 
 ## Contents
 
+- [Computer Vision](#computer-vision)
 - [General-Purpose Machine Learning](#general-purpose-machine-learning)
 - [Data Analysis / Data Visualization](#data-analysis--data-visualization)
 - [Livebooks / Codebases](#livebooks--codebases)
 - [Neural Networks](#neural-networks)
 - [Resources](#resources)
+
+## Computer Vision
+
+- [Evision](https://github.com/cocoa-xu/evision) - OpenCV bindings for Elixir/Erlang.
 
 ## General-Purpose Machine Learning
 

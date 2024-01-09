@@ -26,6 +26,7 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 
 - [Scholar](https://github.com/elixir-nx/scholar) - Traditional machine learning tools built on top of Nx. Scholar implements several algorithms for classification, regression, clustering, dimensionality reduction, metrics, and preprocessing.
 - [EXGBoost](https://github.com/acalejos/exgboost) - Decision Trees implemented using the [XGBoost C API](https://xgboost.readthedocs.io/en/latest/c.html).
+- [Mockinjay](https://github.com/acalejos/mockingjay) - Implementation of Microsoft's [Hummingbird](https://github.com/microsoft/hummingbird) library for converting trained Decision Tree models into Nx tensor computations.
 - [Ulam](https://github.com/tmbb/ulam_ex) - Elixir interface to [Stan](https://mc-stan.org/), a probabilist programming language.
 
 ## Data Analysis / Data Visualization

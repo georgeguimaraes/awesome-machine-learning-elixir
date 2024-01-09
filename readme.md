@@ -68,6 +68,10 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 - [(2022) Announcing Bumblebee: pre-trained machine learning models for GPT2, StableDiffusion, and more](https://www.youtube.com/watch?v=g3oyh3g1AtQ) (Livebook, Bumblebee)
 - [(2022) Axon: functional programming for deep learning](https://www.youtube.com/watch?v=NWXSiZ-vi-o) (Axon)
 
+### Articles
+
+- (2023) [From Python to Elixir Machine Learning](https://www.thestackcanary.com/from-python-pytorch-to-elixir-nx/) - Nice wrapup on what you gain from the Elixir ecosystem for Machine Learning.
+
 ## Contributions
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.

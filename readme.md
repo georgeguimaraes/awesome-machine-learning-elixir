@@ -1,4 +1,6 @@
 <div align="center">
+![Awesome Machine Learning Elixir logo](https://github.com/georgeguimaraes/awesome-machine-learning-elixir/assets/2929/56053a12-875a-4484-b429-339e301e4164)
+
 
 # Awesome Machine Learning and Elixir
 

@@ -51,6 +51,7 @@ Besides giving an overview for experienced Elixir developers, this list can be u
 - [Axon](https://github.com/elixir-nx/axon) - Neural Networks for Elixir. Built with Nx.
 - [Bumblebee](https://github.com/elixir-nx/bumblebee) - Pre-trained neural network models on top of Axon. Provides integration with [Hugging Face](https://huggingface.co/).
 - [Ortex](https://github.com/elixir-nx/ortex) - Wrapper around ONNX. Enables you to run ONNX models using Nx.
+- [Honeycomb](https://github.com/seanmor5/honeycomb) - Fast LLM inference built on Elixir, Bumblebee, and EXLA.
 
 ## Resources
 

@@ -2,62 +2,82 @@
   
 ![Awesome Machine Learning Elixir logo](https://github.com/georgeguimaraes/awesome-machine-learning-elixir/assets/2929/838443d1-db9c-4285-a261-014894e45695)
 
-# Awesome Machine Learning and Elixir
+# Awesome ML & GenAI in Elixir
 
-A curated list of Machine Learning packages and resources for the [Elixir](https://elixir-lang.org/) programming language.
+A curated list of Machine Learning (ML) and Generative AI (GenAI) packages and resources for the [Elixir](https://elixir-lang.org/) programming language.
 
-Besides giving an overview for experienced Elixir developers, this list can be useful for ML people looking for other ecosystems.
+Besides giving an overview for experienced Elixir developers, this list can be useful for ML and AI practitioners looking for other ecosystems.
 
 </div>
 <br />
 
 ## Contents
 
-- [Computer Vision](#computer-vision)
-- [General-Purpose Machine Learning](#general-purpose-machine-learning)
-- [Data Analysis / Data Visualization](#data-analysis--data-visualization)
-- [Livebooks / Codebases](#livebooks--codebases)
-- [Neural Networks](#neural-networks)
+- [Core Tools](#core-tools)
+- [Machine Learning](#machine-learning)
+  - [Traditional Machine Learning](#traditional-machine-learning)
+  - [Deep Learning](#deep-learning)
+- [Generative AI](#generative-ai)
+- [Livebooks & Examples](#livebooks--examples)
 - [Resources](#resources)
 
-## Computer Vision
-
-- [Evision](https://github.com/cocoa-xu/evision) - OpenCV bindings for Elixir/Erlang.
-
-## General-Purpose Machine Learning
-
-- [Scholar](https://github.com/elixir-nx/scholar) - Traditional machine learning tools built on top of Nx. Scholar implements several algorithms for classification, regression, clustering, dimensionality reduction, metrics, and preprocessing.
-- [EXGBoost](https://github.com/acalejos/exgboost) - Decision Trees implemented using the [XGBoost C API](https://xgboost.readthedocs.io/en/latest/c.html).
-- [Mockinjay](https://github.com/acalejos/mockingjay) - Implementation of Microsoft's [Hummingbird](https://github.com/microsoft/hummingbird) library for converting trained Decision Tree models into Nx tensor computations.
-- [Ulam](https://github.com/tmbb/ulam_ex) - Elixir interface to [Stan](https://mc-stan.org/), a probabilist programming language.
-
-## Data Analysis / Data Visualization
+## Core Tools
 
 - [Nx](https://github.com/elixir-nx/nx) - Tensors for Elixir with compilation to CPU/GPU. It is the base for a lot of other libraries.
-- [Livebook](https://livebook.dev/) - Write interactive and collaborative notebooks, with integrations to databases, messaging, visualization and more.
 - [Explorer](https://github.com/elixir-explorer/explorer) - Series and dataframes for data exploration in Elixir.
+- [Livebook](https://livebook.dev/) - Write interactive and collaborative notebooks, with integrations to databases, messaging, visualization and more.
 - [Kino](https://github.com/livebook-dev/kino) - Render rich and interactive output. Used in Livebook.
-- [NxImage](https://github.com/elixir-nx/nx_image) - Image processing in Nx.
 
-## Livebooks / Codebases
+## Machine Learning
 
-- [José Valim's Livebooks](https://github.com/josevalim/livebooks) - Livebooks that José used for talks and Advent of Code.
-- [Programming Machine Learning](https://github.com/nickgnd/programming-machine-learning-livebooks) - Livebook notebooks with code examples for the [Programming Machine Learning book by Paolo Perrotta](https://pragprog.com/titles/pplearn/programming-machine-learning/)
-- [Machine Learning in Elixir](https://github.com/charlieroth/machine-learning-in-elixir) - Livebooks following along with the book [Machine Learning in Elixir by Sean Moriarity](https://pragprog.com/titles/smelixir/machine-learning-in-elixir/)
-- [Asynchoronous Processing in Elixir](https://github.com/whatyouhide/guide_async_processing_in_elixir) - Interactive guide using Livebook to asynchronous data processing in Elixir.
+### Traditional Machine Learning
 
-## Neural Networks
+- [Scholar](https://github.com/elixir-nx/scholar) - Traditional machine learning tools built on top of Nx. Implements algorithms for:
+  - Classification
+  - Regression
+  - Clustering
+  - Dimensionality reduction
+  - Metrics and preprocessing
+- [EXGBoost](https://github.com/acalejos/exgboost) - Decision Trees implemented using the [XGBoost C API](https://xgboost.readthedocs.io/en/latest/c.html).
+- [Mockinjay](https://github.com/acalejos/mockingjay) - Implementation of Microsoft's [Hummingbird](https://github.com/microsoft/hummingbird) library for converting trained Decision Tree models into Nx tensor computations.
+- [Soothsayer](https://github.com/georgeguimaraes/soothsayer) - Time series forecasting library inspired by Facebook's Prophet and NeuralProphet.
+- [Ulam](https://github.com/tmbb/ulam_ex) - Elixir interface to [Stan](https://mc-stan.org/), a probabilist programming language.
+
+### Deep Learning
 
 - [Axon](https://github.com/elixir-nx/axon) - Neural Networks for Elixir. Built with Nx.
 - [Bumblebee](https://github.com/elixir-nx/bumblebee) - Pre-trained neural network models on top of Axon. Provides integration with [Hugging Face](https://huggingface.co/).
 - [Ortex](https://github.com/elixir-nx/ortex) - Wrapper around ONNX. Enables you to run ONNX models using Nx.
+
+### Computer Vision
+
+- [Evision](https://github.com/cocoa-xu/evision) - OpenCV bindings for Elixir/Erlang.
+- [NxImage](https://github.com/elixir-nx/nx_image) - Image processing in Nx.
+
+## Generative AI
+
+### LLM Tools
 - [Honeycomb](https://github.com/seanmor5/honeycomb) - Fast LLM inference built on Elixir, Bumblebee, and EXLA.
+- [Instructor.ex](https://github.com/thmsmlr/instructor_ex) - Structured outputs from LLMs using Ecto schemas. Works with OpenAI, llama.cpp and Bumblebee.
+
+### Agent Frameworks
+- [Jido](https://github.com/agentjido/jido) - Framework for building autonomous, distributed agent systems using traditional AI and ML approaches.
+- [LangChain](https://github.com/brainlid/langchain) - Framework for developing applications powered by language models, with support for OpenAI, Anthropic, Google, and Bumblebee models.
+
+
+## Livebooks & Examples
+
+- [José Valim's Livebooks](https://github.com/josevalim/livebooks) - Livebooks that José used for talks and Advent of Code.
+- [Programming Machine Learning](https://github.com/nickgnd/programming-machine-learning-livebooks) - Livebook notebooks with code examples for the [Programming Machine Learning book by Paolo Perrotta](https://pragprog.com/titles/pplearn/programming-machine-learning/)
+- [Machine Learning in Elixir](https://github.com/charlieroth/machine-learning-in-elixir) - Livebooks following along with the book [Machine Learning in Elixir by Sean Moriarity](https://pragprog.com/titles/smelixir/machine-learning-in-elixir/)
+- [Asynchronous Processing in Elixir](https://github.com/whatyouhide/guide_async_processing_in_elixir) - Interactive guide using Livebook to asynchronous data processing in Elixir.
 
 ## Resources
 
 ### Books
 
 - [Machine Learning in Elixir - Learning to Learn with Nx and Axon (by Sean Moriarity)](https://pragprog.com/titles/smelixir/machine-learning-in-elixir/)
+- [Genetic Algorithms in Elixir - Solve Problems Using Evolution (by Sean Moriarity)](https://pragprog.com/titles/smgaelixir/genetic-algorithms-in-elixir/)
 
 ### Videos
 

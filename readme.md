@@ -1,6 +1,5 @@
 <div align="center">
-  
-![Awesome Machine Learning Elixir logo](https://github.com/georgeguimaraes/awesome-machine-learning-elixir/assets/2929/838443d1-db9c-4285-a261-014894e45695)
+![Awesome ML & GenAI in Elixir logo](https://github.com/user-attachments/assets/19fc503d-1123-4785-b5b2-570b0377c4ba)
 
 # Awesome ML & GenAI in Elixir
 

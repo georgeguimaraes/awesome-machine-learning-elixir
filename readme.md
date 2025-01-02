@@ -1,4 +1,5 @@
 <div align="center">
+  
 ![Awesome ML & GenAI in Elixir logo](https://github.com/user-attachments/assets/19fc503d-1123-4785-b5b2-570b0377c4ba)
 
 # Awesome ML & GenAI in Elixir

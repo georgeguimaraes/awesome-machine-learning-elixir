@@ -1,0 +1,3 @@
+config:
+  # who cares about line length in markdown?
+  MD013: false
